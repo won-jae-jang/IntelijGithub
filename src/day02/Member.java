@@ -22,7 +22,7 @@ public class Member {
     public void printScreen() {
 
         System.out.println("===========학생정보===========");
-        System.out.println("이름\t국어\t영어\t수학\t합계\t평균\t");
+        System.out.println("이름 \t국어 \t영어 \t수학 \t합계 \t평균");
         System.out.println("-----------------------------");
         printScore();
     }
@@ -37,7 +37,7 @@ public class Member {
         while (iterator.hasNext()) {
 
             String key = iterator.next();
-            System.out.print(scoreMap.get(key) + " ");
+            System.out.print("   " + scoreMap.get(key) + "    ");
         }
         System.out.println(totalSum + " " + average);
 
